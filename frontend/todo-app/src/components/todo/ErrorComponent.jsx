@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 
 function ErrorComponent() {
-    return <div>An Error Occurred. I don't know what to do! Contact support at abcd-efgh-ijkl</div>
+    return <div>An Error Occurred. Please contact tsbalaji10@gmail.com</div>
 }
-
 export default ErrorComponent
