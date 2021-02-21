@@ -1,3 +1,4 @@
+export {} 
 const profile = {
     name: 'alex',
     age: 20,

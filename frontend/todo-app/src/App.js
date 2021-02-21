@@ -6,9 +6,9 @@ import "./bootstrap.css"
 // import ThirdComponent from "./components/learning-examples/ThirdComponent";
 // import  Counter  from "./components/counter/Counter";
 // import CounterTest from "./components/counter/CounterTest"
-// import TodoApp from "./components/todo/TodoApp"
+import TodoApp from "./components/todo/TodoApp"
 // import TodoApp from './components/todo-new/TodoApp'
-import SignIn from './components/todo-new/js/SignIn.js'
+// import SignIn from './components/todo-new/js/SignIn.js'
 class App extends Component {
   render() {
     return (
@@ -16,8 +16,8 @@ class App extends Component {
         {/* <Counter /> */}
         {/* <CounterTest/> */}
         {/* <TodoApp/> */}
-        {/* <TodoApp/> */}
-        <SignIn/>
+        <TodoApp/>
+        {/* <SignIn/> */}
 
       </div>
     );

@@ -1,3 +1,4 @@
+export {} 
 const drink = {
     color: 'brown',
     carbonated: true,

@@ -1,4 +1,4 @@
-class Vehicle {
+export class Vehicle {
     color: string = 'red'
 
     constructor(color:string){
@@ -16,7 +16,7 @@ class Car extends Vehicle {
 
 }
 
-const vehicle = new Vehicle()
+const vehicle = new Vehicle('red')
 vehicle.drive()
 vehicle.honk()
 console.log(vehicle.color)

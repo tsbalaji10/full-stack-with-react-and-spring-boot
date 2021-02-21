@@ -1,3 +1,4 @@
+export {} 
 interface Vehicle {
     name: string;
     year: number;

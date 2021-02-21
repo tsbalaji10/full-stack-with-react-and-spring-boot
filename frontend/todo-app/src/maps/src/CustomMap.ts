@@ -10,7 +10,11 @@ export class CustomMap {
     private googleMap: google.maps.Map;
 
     constructor(divId: string) {
-        this.googleMap = new google.maps.Map(document.getElementById(divId), {
+        const div=document.getElementById(divId)
+        if(!div){
+            throw new Error("The element #div wasn't found");
+        }
+        this.googleMap = new google.maps.Map(div, {
             zoom: 1,
             center: {
                 lat: 0,
